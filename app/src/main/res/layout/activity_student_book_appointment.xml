@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/my_primary"
+    tools:context=".studentBookAppointmentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:elevation="10dp"
+        android:layout_marginBottom="30dp">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/studentAppointmentBackBtn"
+            android:src="@drawable/back_arrow"
+            android:clickable="true"
+            android:layout_gravity="start"
+            android:background="@drawable/circle_btn"
+            android:focusable="true">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:letterSpacing="0.1"
+            android:text="Appointment"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image1"
+        app:tint="@color/blue"
+        android:layout_marginBottom="20dp"
+        android:elevation="30dp">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:text="Reg No."
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/AppointmentRegNo"
+            android:elevation="20dp"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_rounded_corners"
+            android:hint="Reg. No.">
+
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:text="Description:"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/AppointmentDescription"
+            android:background="@drawable/edit_text_rounded_corners"
+            android:elevation="20dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Reason?"
+            android:textAlignment="textStart">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:text="Date:"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/appointmentDateBook"
+            android:elevation="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_rounded_corners"
+            android:inputType="date"
+            android:hint="Select when Lecturer is available">
+
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:text="Time:"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:elevation="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_rounded_corners"
+            android:hint="Time"
+            android:inputType="time">
+
+        </EditText>
+
+        <Button
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            android:letterSpacing="0.1"
+            android:layout_margin="10dp"
+            android:text="Book"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:background="@drawable/button"
+            android:textSize="20sp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

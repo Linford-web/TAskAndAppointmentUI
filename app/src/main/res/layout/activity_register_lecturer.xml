@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="17dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/my_primary"
+    tools:context=".registerStudentActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/id_register"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:letterSpacing="0.1"
+        android:textAlignment="center"
+        android:text="Register">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Staff No."
+        android:textSize="20dp"
+        android:layout_margin="10dp">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/staffNo"
+        android:background="@drawable/edit_text_rounded_corners"
+        android:elevation="10dp"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:hint="Staff No."
+        android:padding="15dp">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        >
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/staffEmail"
+        android:background="@drawable/edit_text_rounded_corners"
+        android:elevation="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:padding="15dp">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        >
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/staffRegisterPassword"
+        android:background="@drawable/edit_text_rounded_corners"
+        android:elevation="10dp"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:hint="password"
+        android:padding="15dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/StudentRegisterBtn"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:text="Register"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_margin="20sp"
+        android:textSize="20sp">
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecturerLoginTxt"
+        android:text="Have Account? LogIn"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textStyle="normal">
+
+    </TextView>
+
+</LinearLayout>

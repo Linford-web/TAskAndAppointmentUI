@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.All_Ui"
+        tools:targetApi="31">
+        <activity
+            android:name=".viewAppointmentBookedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentBookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lecturerAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".taskActivity_lecturer"
+            android:exported="false" />
+        <activity
+            android:name=".view_task_lecturer"
+            android:exported="false" />
+        <activity
+            android:name=".add_task_lecturer"
+            android:exported="false" />
+        <activity
+            android:name=".viewTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".taskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LecturerDash"
+            android:exported="false" />
+        <activity
+            android:name=".studentDash"
+            android:exported="false" />
+        <activity
+            android:name=".registerLecturerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".registerStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LecturerLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".start_activity"
+            android:exported="false" />
+        <activity
+            android:name=".splash_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

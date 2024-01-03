@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/my_primary"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".menuActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/homebackicon"
+        android:src="@drawable/menu_open_icon"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:layout_marginBottom="100dp"
+        android:focusable="true">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuHomeBtn"
+            android:text="Home"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:drawableEnd="@drawable/home_small"
+            android:background="@drawable/menu_button"
+            android:onClick="onMenuItemClick"
+            android:focusable="true">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuProfileBtn"
+            android:text="Profile"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:drawableEnd="@drawable/profile_small"
+            android:background="@drawable/menu_button"
+            android:onClick="onMenuItemClick"
+            android:focusable="true">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuTaskBtn"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/menu_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:letterSpacing="0.1"
+            android:onClick="onMenuItemClick"
+            android:padding="10dp"
+            android:drawableEnd="@drawable/task_icon_small"
+            android:text="Tasks"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuAppointmentBtn"
+            android:text="Appointments"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:drawableEnd="@drawable/appointment_book_icon"
+            android:background="@drawable/menu_button"
+            android:onClick="onMenuItemClick"
+            android:focusable="true">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/logout"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:letterSpacing="0.1"
+            android:drawableEnd="@drawable/log_out_icon"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:background="@drawable/menu_button"
+            android:onClick="onMenuItemClick"
+            android:focusable="true">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

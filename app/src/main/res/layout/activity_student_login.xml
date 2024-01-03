@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="17dp"
+    android:gravity="center"
+    android:background="@color/my_primary"
+    android:orientation="vertical"
+    tools:context=".studentLoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/profile_icon"
+        android:background="@drawable/round_profile"
+        android:elevation="5dp"
+        app:tint="@color/my_primary">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration No:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:letterSpacing="0.09"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regNumber"
+        android:hint="Reg. No."
+        android:inputType="text"
+        android:elevation="10dp"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:background="@drawable/edit_text_rounded_corners">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:letterSpacing="0.09"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/studentPassword"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:elevation="10dp"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:background="@drawable/edit_text_rounded_corners">
+
+    </EditText>
+
+    <Button
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLoginStudent"
+        android:text="Log In"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp">
+
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/studentRegisterText"
+        android:text="No Account? Register"
+        android:textSize="20dp"
+        android:letterSpacing="0.04"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+    </TextView>
+
+
+</LinearLayout>
